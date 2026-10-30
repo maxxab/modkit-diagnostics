@@ -9,3 +9,6 @@ AGENTS.md
 .cursor/
 .development-standards/POLICY.md
 .development-standards/manifest.json
+
+# Package CI already validates standards on pushes and pull requests.
+/.github/workflows/development-standards.yml
