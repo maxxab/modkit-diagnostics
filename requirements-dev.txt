@@ -1,0 +1,7 @@
+# Official PyPI versions verified 2026-10-30 by coordinated package work.
+pytest==9.2.0
+hatchling==1.33.0
+build==1.6.1
+twine==7.0.0
+ruff==0.17.3
+mypy==2.4.1
