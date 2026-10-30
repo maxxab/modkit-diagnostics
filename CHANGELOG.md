@@ -4,20 +4,17 @@
 
 ### Features
 
-- add application-owned error catalogs (`79a38e39b8bb`)
-- add bounded redaction and task-local snapshots (`187ee4e1b6a4`)
-- add explicit single-call diagnostic logging (`c42690d49c70`)
+- implement generic diagnostics ([13085fd18c06](https://github.com/maxxab/modkit-diagnostics/commit/13085fd18c06f42b7fbf5bc73b4d27a680c825e5))
 
-### Bug Fixes
+### Build System
 
-- omit oversized keys before diagnostic snapshots (`1e54e62fd898`)
-- reject ambiguous bare-string redaction keys (`99a36df89f42`)
-
-### Testing
-
-- verify portable installed diagnostics artifacts (`dea6c09086c3`)
-- enforce generic standard-library import boundary (`d9869538eb84`)
+- add portable development standards tooling ([6731a4929e13](https://github.com/maxxab/modkit-diagnostics/commit/6731a4929e13e8d31740697a32ef7f255d25d019))
 
 ### CI/CD
 
-- validate event history and expand supported Python matrix (`efb11dc2c776`)
+- verify package across supported runtimes ([4381141425b8](https://github.com/maxxab/modkit-diagnostics/commit/4381141425b8127a9eaa66c11f03dc25cf61ffe1))
+
+### Maintenance
+
+- ignore local build and environment files ([4adf1c5017f4](https://github.com/maxxab/modkit-diagnostics/commit/4adf1c5017f4902e7b8cd95382281455841c230e))
+- keep duplicate generated workflow local ([bbc3533b4c78](https://github.com/maxxab/modkit-diagnostics/commit/bbc3533b4c7896719d5d9292fc5bb7867dfd3295))
